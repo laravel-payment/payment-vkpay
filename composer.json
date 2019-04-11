@@ -1,0 +1,21 @@
+{
+    "name": "laravel-payment/payment-vkpay",
+    "description": "Laravel payment system payment provider for VK Pay",
+    "type": "laravel-payment-plugin",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Yuriy Potemkin",
+            "email": "ysoft2000@mail.ru"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "laravel-payment/manager":"dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "LaravelPayment\\PaymentVKPay\\": ""
+        }
+    }
+}
